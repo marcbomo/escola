@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97245D3C-08D2-B058-0AF6-2D96054DA39B" name="ESTUDIANTE_MATERIA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE_ID_ESTUDIANTE" id="19602C86-3367-4620-3D3B-971346A58A25">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B0FFDE4-CCA9-45E7-3F9A-0FB668B92AEC" referredColumn="C2E14306-7790-2D80-B118-93604C543128"/>
+</associations>
+</Column>
+<Column name="MATERIA_ID_MATERIA" id="E9A589F7-7FFA-97D6-8D6E-69287F783DCD">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F467EAC-7587-4B26-66FA-310C94470518" referredColumn="A258D310-8CD3-1D43-4EDA-C90C2F432A21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E584155F-5C01-ADD2-1D8A-18A73AD1809D" name="ESTUDIANTE_MATERIA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19602C86-3367-4620-3D3B-971346A58A25"/>
+<colUsage columnID="E9A589F7-7FFA-97D6-8D6E-69287F783DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D644F88-22B7-3E0D-D5D9-9E753352FAFB" name="ESTUDIANTE_MATERIA_ESTUDIANTE_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>31F7E4B5-8FFC-4550-D41A-5D82A8B33696</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19602C86-3367-4620-3D3B-971346A58A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7529310-E999-E702-A2DD-798FC930AF4D" name="ESTUDIANTE_MATERIA_MATERIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>31F7E4B5-8FFC-4550-D41A-5D82A8B33696</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9A589F7-7FFA-97D6-8D6E-69287F783DCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

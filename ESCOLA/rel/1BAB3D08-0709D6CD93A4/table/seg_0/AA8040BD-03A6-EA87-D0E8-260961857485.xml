@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA8040BD-03A6-EA87-D0E8-260961857485" name="ESTUDIANTE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:34 UTC</createdTime>
+<generatorID>69BD8063-208A-9A7D-7344-D771AE6D3FE0</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<abbreviation>ESTUD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTUDIANTE" id="C2E14306-7790-2D80-B118-93604C543128">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>CB632458-9694-484B-0FFD-12B0ADB89241</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI_ESTUDIANTE" id="A00E4666-0F9D-6DAE-A8FC-7A794F4B12A5">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>4B475918-0F7B-E579-23ED-3F59600E1DF3</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTUDIANTE" id="8D028DD3-1857-0E66-A8B9-206126520D5A">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>4C016CCC-F51B-B62B-F4A9-BFD31D39393A</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDAD_ESTUDIANTE" id="D9902D04-9864-A3A5-6958-775E9E7C7CD9">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>CFB181A0-90B5-159A-DD5C-D082174A13D5</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92BF5D31-39EA-9399-F83B-12AC20F02539" name="ESTUDIANTE_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>BF6FE0D7-EC5F-9CDB-8730-26FC5B2C04AC</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2E14306-7790-2D80-B118-93604C543128"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D032E99-D3C6-B869-421E-C49590E7D7CD" name="MATERIA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>328609E3-5E08-4FDD-45B5-D66578A3CD4C</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<abbreviation>MAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MATERIA" id="A258D310-8CD3-1D43-4EDA-C90C2F432A21">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>161FD839-0A1D-868B-145E-78E3611AE240</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MATERIA" id="98CC6E3C-AA4E-3974-DE2E-42ED9E58ED52">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>0E20B241-3DF2-ED7E-FB73-52C0656BD71F</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_CREDITOS" id="FEC1CA92-F83C-24C3-4528-2032CAFB7F2A">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>2C917E55-011C-168B-9ABA-ED58B06439BB</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D1F6F3B-B9CE-C09E-289F-BBD271F233C7" name="MATERIA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-11 12:24:35 UTC</createdTime>
+<generatorID>15CB5DBF-DF32-F8EC-4443-8A800F9E702C</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A258D310-8CD3-1D43-4EDA-C90C2F432A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
