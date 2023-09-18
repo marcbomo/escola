@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE85C993-F86D-D9FB-6112-40ED91A51F91" name="AULA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<generatorID>4D9FA3F1-3907-A9BD-35BF-D66329B4E1DB</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<abbreviation>AULA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AULA" id="26D460B0-D637-1DBA-663B-7616BB231EA0">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<generatorID>91352BFE-EDF1-5AF1-F572-8A18F84EE484</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CF571A3-BD0B-3C21-6990-4BC164313B2D" name="AULA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<generatorID>D5F3F614-1888-CEB4-7E04-6A95E484DB9C</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26D460B0-D637-1DBA-663B-7616BB231EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

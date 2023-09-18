@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A23BAC64-4927-9539-0297-EBCDDB5B436D" name="MATERIA_AULA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATERIA_ID_MATERIA" id="658E0B66-E08B-4596-E4C7-CD17FD78C8CF">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA3183AE-A6C3-7D31-DE69-84905D959DC4" referredColumn="A258D310-8CD3-1D43-4EDA-C90C2F432A21"/>
+</associations>
+</Column>
+<Column name="AULA_ID_AULA" id="33063EE1-B3B4-2EDE-78A4-0184F9E18169">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD4DDD36-87FC-DAB8-9E37-0FB3A30455EF" referredColumn="26D460B0-D637-1DBA-663B-7616BB231EA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58A951F3-C0BE-F725-94C8-347BBDE2F122" name="MATERIA_AULA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="658E0B66-E08B-4596-E4C7-CD17FD78C8CF"/>
+<colUsage columnID="33063EE1-B3B4-2EDE-78A4-0184F9E18169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC49EA75-A911-6B68-989C-5AAA2EC987F6" name="MATERIA_AULA_MATERIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<generatorID>78B2AF20-4FB8-8DDD-FF13-ABD90C29AC5F</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="658E0B66-E08B-4596-E4C7-CD17FD78C8CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="334EAB3A-B39A-2DBC-8EFF-1764F52C07D1" name="MATERIA_AULA_AULA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:06:26 UTC</createdTime>
+<generatorID>78B2AF20-4FB8-8DDD-FF13-ABD90C29AC5F</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33063EE1-B3B4-2EDE-78A4-0184F9E18169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

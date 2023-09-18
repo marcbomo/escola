@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MATERIA_AULA" directorySegmentName="seg_0" id="78B2AF20-4FB8-8DDD-FF13-ABD90C29AC5F">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 09:05:46 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<sourcePk>15CB5DBF-DF32-F8EC-4443-8A800F9E702C</sourcePk>
+<targetPk>D5F3F614-1888-CEB4-7E04-6A95E484DB9C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>328609E3-5E08-4FDD-45B5-D66578A3CD4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D9FA3F1-3907-A9BD-35BF-D66329B4E1DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
