@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D54F99FA-1730-4247-EC4B-A9909843F2E6" name="PROFESOR">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:23:37 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PROF</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROFESOR" id="5DA1F161-BAC4-500E-9C62-8A07BF9A41E9">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:23:51 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="039446B8-EFBC-CB40-4DF8-D28066F3586A" name="PROFESOR PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:24:17 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DA1F161-BAC4-500E-9C62-8A07BF9A41E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

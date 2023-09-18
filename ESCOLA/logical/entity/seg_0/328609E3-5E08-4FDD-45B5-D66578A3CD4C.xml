@@ -25,7 +25,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
@@ -38,7 +37,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -51,7 +49,19 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PROFESOR" id="95DF3622-CCA2-0A29-F863-A93047D059D4">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:24:44 UTC</createdTime>
+<generatorID>78D27D3D-2BFA-E740-CFF0-920FE8B672ED</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<referedAttribute>5DA1F161-BAC4-500E-9C62-8A07BF9A41E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -60,8 +70,9 @@
 <createdBy>mbosch</createdBy>
 <createdTime>2023-09-11 12:12:04 UTC</createdTime>
 <ownerDesignName>ESCOLA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

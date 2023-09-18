@@ -16,7 +16,6 @@
 <ownerDesignName>ESCOLA</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -28,7 +27,6 @@
 <ownerDesignName>ESCOLA</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -40,9 +38,22 @@
 <ownerDesignName>ESCOLA</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_ID_PROFESOR" id="A1403AC6-2CC2-98C0-6532-F941E891C629">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:25:28 UTC</createdTime>
+<generatorID>95DF3622-CCA2-0A29-F863-A93047D059D4</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CF9BC31-7DAB-D650-642E-BD44BEB5B0F1" referredColumn="1DA0BF72-DE30-F437-7029-05AC44BF6A0E"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -56,6 +67,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A258D310-8CD3-1D43-4EDA-C90C2F432A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C542FDBC-1601-8F27-DA43-B4AB054000B9" name="MATERIA__IDX">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:25:28 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>78D27D3D-2BFA-E740-CFF0-920FE8B672ED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A1403AC6-2CC2-98C0-6532-F941E891C629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C13C7A4-50F3-4C47-5983-4E2264783A0C" name="MATERIA_PROFESOR_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 07:25:28 UTC</createdTime>
+<generatorID>78D27D3D-2BFA-E740-CFF0-920FE8B672ED</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1403AC6-2CC2-98C0-6532-F941E891C629"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
