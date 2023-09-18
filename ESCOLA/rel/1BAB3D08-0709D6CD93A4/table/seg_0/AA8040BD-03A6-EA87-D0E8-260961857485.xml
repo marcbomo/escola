@@ -16,7 +16,6 @@
 <ownerDesignName>ESCOLA</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -28,7 +27,6 @@
 <ownerDesignName>ESCOLA</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -40,7 +38,6 @@
 <ownerDesignName>ESCOLA</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -53,9 +50,22 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CASA_ID_CASA" id="D1AE0C8B-A461-89DE-C7C9-018F3ACE5648">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:22:23 UTC</createdTime>
+<generatorID>C16E6C49-FAF9-36F3-7C21-65F73465C12D</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49FBB3EE-A95F-4C74-C5B3-16EF993D327F" referredColumn="85C9F8BE-3572-69E4-CC42-1C22FAA9F0C4"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -69,6 +79,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C2E14306-7790-2D80-B118-93604C543128"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1714B4E-F86B-024A-5FC0-874250476645" name="ESTUDIANTE_CASA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:22:23 UTC</createdTime>
+<generatorID>7EDCBEDE-2464-F2F2-B4BB-5222357CAB72</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1AE0C8B-A461-89DE-C7C9-018F3ACE5648"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

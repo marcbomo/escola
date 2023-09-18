@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D528F41-3D34-2655-6A66-543E2CA87B23" name="CASA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:22:23 UTC</createdTime>
+<generatorID>E9068088-0BEA-D31C-11D4-D4A928F56630</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<abbreviation>CASA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CASA" id="85C9F8BE-3572-69E4-CC42-1C22FAA9F0C4">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:22:23 UTC</createdTime>
+<generatorID>3E7933EB-158D-318C-BD83-37B8DCB03E97</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46C1B3B8-FDDA-03B3-F150-86F3843A7084" name="CASA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:22:23 UTC</createdTime>
+<generatorID>9BED2A57-7CFB-7E24-195D-D9E73449563A</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C9F8BE-3572-69E4-CC42-1C22FAA9F0C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

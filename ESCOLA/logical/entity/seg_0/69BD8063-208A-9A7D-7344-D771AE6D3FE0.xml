@@ -25,7 +25,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
@@ -38,7 +37,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -51,7 +49,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
@@ -65,7 +62,19 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CASA" id="C16E6C49-FAF9-36F3-7C21-65F73465C12D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:21:46 UTC</createdTime>
+<generatorID>7EDCBEDE-2464-F2F2-B4BB-5222357CAB72</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<referedAttribute>3E7933EB-158D-318C-BD83-37B8DCB03E97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -74,8 +83,9 @@
 <createdBy>mbosch</createdBy>
 <createdTime>2023-09-11 11:19:26 UTC</createdTime>
 <ownerDesignName>ESCOLA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

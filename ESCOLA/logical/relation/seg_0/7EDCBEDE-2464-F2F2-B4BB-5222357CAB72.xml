@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CASA_ESTUDIANTE" directorySegmentName="seg_0" id="7EDCBEDE-2464-F2F2-B4BB-5222357CAB72">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 12:21:46 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<sourcePk>9BED2A57-7CFB-7E24-195D-D9E73449563A</sourcePk>
+<targetPk>BF6FE0D7-EC5F-9CDB-8730-26FC5B2C04AC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E9068088-0BEA-D31C-11D4-D4A928F56630</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>69BD8063-208A-9A7D-7344-D771AE6D3FE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
