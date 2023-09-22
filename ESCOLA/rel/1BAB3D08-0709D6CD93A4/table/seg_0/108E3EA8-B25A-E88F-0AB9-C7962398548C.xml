@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="108E3EA8-B25A-E88F-0AB9-C7962398548C" name="ESCOLA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>A9C4A4A4-8D3A-8496-E073-8AE927766D55</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<abbreviation>ESC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESCOLA" id="9C908630-82F7-6359-85C4-8F2CD3B68631">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>C6D03FC9-7226-7F4F-493B-CB0709BD9995</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_ESCOLA" id="C9612C94-D0EC-7950-7C0A-A6D1881F6ED8">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>DBF7B85C-4DEA-24A4-8FB4-8AD20523B8E8</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIR_ESCOLA" id="572AFA89-572B-3DFC-4E20-5021CA107406">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>EFCBB8C6-1C79-0DC8-7B77-465322CA9ADE</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BA6FB76-B0AF-E422-96A8-47187877F5E3" name="ESCOLA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>F8AE1AAA-BD05-2304-B049-EB7AAC6DB736</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C908630-82F7-6359-85C4-8F2CD3B68631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

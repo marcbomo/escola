@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28C5C6F9-72F9-8BA5-1CBF-7EC38AD9974B" containerWithKeyObject="35A7C8AE-698F-A7EA-226B-C91301BAF088" localFKIndex="E59186FD-50AE-F7F7-46E3-EC6713EBD157" name="PROFESSOR_ESCOLA_ESCOLA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>3CF6B015-83E3-F1CB-C9B5-8137FC119926</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<referredTableLongName>ESCOLA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>108E3EA8-B25A-E88F-0AB9-C7962398548C</referredTableID>
+<keyObject>2BA6FB76-B0AF-E422-96A8-47187877F5E3</keyObject>
+<referredKeyID>2BA6FB76-B0AF-E422-96A8-47187877F5E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESCOLA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

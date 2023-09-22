@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35A7C8AE-698F-A7EA-226B-C91301BAF088" name="PROFESSOR_ESCOLA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROFESOR_ID_PROFESOR" id="51870AF5-18E7-9135-F45B-3513F03762B1">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CA104A7-29F1-2C7C-DA3B-A91C556B4237" referredColumn="1DA0BF72-DE30-F437-7029-05AC44BF6A0E"/>
+</associations>
+</Column>
+<Column name="ESCOLA_ID_ESCOLA" id="7A3E0558-E84E-5B9A-6AF4-CE32363A0A92">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28C5C6F9-72F9-8BA5-1CBF-7EC38AD9974B" referredColumn="9C908630-82F7-6359-85C4-8F2CD3B68631"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B55A2A5D-094B-DC5D-32D9-814D86B87492" name="PROFESSOR_ESCOLA_PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51870AF5-18E7-9135-F45B-3513F03762B1"/>
+<colUsage columnID="7A3E0558-E84E-5B9A-6AF4-CE32363A0A92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE2D95A6-3B33-DEA4-268A-6536510BF04C" name="PROFESSOR_ESCOLA_PROFESOR_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>3CF6B015-83E3-F1CB-C9B5-8137FC119926</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51870AF5-18E7-9135-F45B-3513F03762B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E59186FD-50AE-F7F7-46E3-EC6713EBD157" name="PROFESSOR_ESCOLA_ESCOLA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:06:07 UTC</createdTime>
+<generatorID>3CF6B015-83E3-F1CB-C9B5-8137FC119926</generatorID>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A3E0558-E84E-5B9A-6AF4-CE32363A0A92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROFESSOR_ESCOLA" directorySegmentName="seg_0" id="3CF6B015-83E3-F1CB-C9B5-8137FC119926">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-22 10:05:27 UTC</createdTime>
+<ownerDesignName>ESCOLA</ownerDesignName>
+<engineerTo>
+<item key="1BAB3D08-9430-3C08-D919-0709D6CD93A4" value="true"/>
+</engineerTo>
+<sourcePk>039446B8-EFBC-CB40-4DF8-D28066F3586A</sourcePk>
+<targetPk>F8AE1AAA-BD05-2304-B049-EB7AAC6DB736</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D54F99FA-1730-4247-EC4B-A9909843F2E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9C4A4A4-8D3A-8496-E073-8AE927766D55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
